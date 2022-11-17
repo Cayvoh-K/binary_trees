@@ -31,7 +31,7 @@ for (i = 0; i < width; i++)
 if (depth && is_left)
 {
 	for (i = 0; i < width + right; i++)
-		s[depth - 1][offset + left + width / 2 + 1 i] = '_';
+		s[depth - 1][offset + left + width / 2 + 1] i] = '_';
 	s[depth - 1][offset + left + width / 2] = '.';
 }
 else if (depth && !is_left)
